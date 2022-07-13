@@ -1,0 +1,635 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: century gothic;
+}
+
+:root{
+    --primary: rgb(0, 156, 233);
+}
+
+/* Dark Mode */
+
+body{
+    background-color: black;
+    color: white;
+}
+
+textarea{
+    background-color: black;
+    background: black;
+    color: white;
+    display: block;
+}
+
+a{
+    color: gray;
+}
+
+.usmito-header-closeFriends span{
+    color: black;
+    font-size: 85%;
+}
+
+.usmito-buttons svg{
+    fill: gray;
+}
+
+label .userFeed-buttons-follow{
+    background-color: black;
+}
+
+.profile-header-follow .userFeed-buttons-follow{
+    background-color: black;
+}
+
+.profile-header-edit .profile-header-edit-button{
+    background-color: black;
+}
+
+.login-form-div .login-form-form{
+    background-color: rgb(0 95 159);
+}
+
+.signup-form-div .signup-form-form{
+    background-color: rgb(0 95 159);
+}
+
+
+
+
+.wrapper{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.wrapper2{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.leftWrapper{
+    width: 25%;
+    margin: 0 auto;
+}
+
+.middleWrapper{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.rightWrapper{
+    width: 25%;
+    margin: 0 auto;
+}
+
+.input-form{
+    width: calc(100% - 20px);
+    padding: 9px;
+    margin: auto;
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+.horizontalSeparator1{
+    height: 1px;
+    width: 100%;
+    background-color: gray;
+}
+
+.horizontalSeparator2{
+    height: 20px;
+    border-style: solid;
+    border-bottom: none;
+    border-width: 1px;
+    border-color: gray;
+    background-color: rgb(21, 24, 28);
+}
+
+/* Navbar */
+
+#navbar{
+    margin-bottom: 30px;
+}
+
+#navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 95, 159);
+}
+
+.navbar-elem{
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+.navbar-elem-search{
+    float: left;
+    margin-left: 20px;
+    margin-right: auto;
+    padding-top: 7px;
+}
+
+.navbar-elem-search-div{
+    
+}
+
+.navbar-elem-search-div-search{
+    
+}
+
+.navbar-elem-search-div-searchButton{
+    
+}
+
+.navbar-elem-right{
+    float: right;
+    border-left: 1px solid #bbb;
+}
+
+.navbar-elem-link {
+    display: block;
+    padding: 8px;
+    background-color: rgb(53, 181, 238);
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: var(--primary);
+}
+
+.navbar-logo{
+    overflow: hidden;
+}
+
+.navbar-logo img{
+    float: left;
+    width: 120px;
+}
+
+.navbar-logo h1{
+    height: 120px;
+    padding: 0 10px;
+    /*border: solid #CCCCCC 2px;*/
+    white-space: normal;
+    word-break: break-word;
+    display: flex;
+    align-items: center;
+}
+
+/* Messages */
+
+.message-normal{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.message-error{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: calc(25% + 100px);
+    margin-right: calc(25% + 100px);
+    background-color: red;
+}
+
+.message-succes{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: calc(25% + 100px);
+    margin-right: calc(25% + 100px);
+    background-color: lime;
+}
+
+/* Login */
+
+.login-form-div{
+    text-align: center;
+}
+
+.login-form-form{
+    padding: 50px 20px;
+    background-color: #ededed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 70px;
+    padding-top: 28px;
+}
+
+.login-form-button{
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: var(--primary);
+}
+
+/* Signup */
+
+.signup-form-div{
+    text-align: center;
+}
+
+.signup-form-form{
+    padding: 50px 20px;
+    background-color: #ededed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 70px;
+    padding-top: 28px;
+}
+
+.signup-form-button{
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: var(--primary);
+}
+
+/* Main screen */
+.index-intro-welcome{
+    text-align: left;
+}
+
+/* Post */
+
+.index-main .index-post{
+    display: flex;
+    padding: 5px;
+    flex-shrink: 0;
+    /* border-bottom: 1px solid gray; */
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    border-bottom-style: none;
+}
+
+.index-post-wrapper{
+    display: block;
+}
+
+.index-post-textContainer{
+    flex: 1;
+    padding-left: 5px;
+}
+
+.index-post-user{
+    align-items: center ;
+}
+
+.index-post-checkbox{
+    display: inline;
+    margin-right: auto;
+}
+
+.index-post-textContainer textarea{
+    width: 99%;
+    border: none;
+    padding: 5px;
+    resize: none;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.buttonsContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+input#submitPostButton {
+    background: rgb(53, 181, 238);
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 40px;
+    padding: 7px 20px;
+    border: none;
+}
+
+input#submitPostButton:hover {
+    background: var(--primary);
+}
+
+#count{
+    align-items: center;
+}
+
+.w-count-wrapper {
+    margin-right: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+}
+.vertical-pipe {
+    width: 1px;
+    height: 30px;
+    margin-left: 8px;
+    background-color: rgb(170,184,194);
+}
+
+.index-feed{
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+
+/* Profile */
+.profile-header{
+    display: flex;
+}
+
+.profile-header-info{
+    width: 90%;
+}
+
+.profile-header-follow{
+    width: 10%;
+}
+
+.profile-header-edit{
+    width: 10%;
+}
+
+.profile-header-edit-button{
+    border-radius: 20px;
+    width: -webkit-fill-available;
+    height: 30px;
+    color: var(--primary);
+    border-color: var(--primary);
+    background: white;
+    border-style: solid;
+}
+
+.profile-header-edit-button:hover{
+    background: rgba(0, 155, 233, 0.24);
+}
+
+.profile-usmitos{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.usmito{
+    padding: 10px;
+}
+
+.usmito-reusmito{
+
+}
+
+.usmito-header{
+    display: flex;
+    width: 100%;
+}
+
+.usmito-header-username{
+    text-align: left;
+    width: auto;
+}
+
+.usmito-header-profile{
+    text-align: left;
+    width: auto;
+    margin-left: 20px;
+}
+
+.usmito-header-date{
+    text-align: left;
+    width: auto;
+    margin-left: 5px;
+    color: rgb(110, 118, 125);
+}
+
+.usmito-header-closeFriends{
+    background-color: rgb(108, 212, 56);
+    border-radius: 50px;
+    margin-left: 20px;
+    width: fit-content;
+    text-align: center;
+    padding: 5px;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+/*
+.usmito-message{
+    width: 100%;
+    height: auto;
+    border: none;
+    padding: 5px;
+    resize: none;
+    font-size: 0.9rem;
+}
+*/
+
+.usmito-message{
+    width: 100%;
+    height: auto;
+    /*border: none;*/
+    text-align: justify;
+    padding: 5px;
+    font-size: small;
+}
+
+.usmito-buttons{
+    display: flex;
+}
+
+.usmito-buttons svg{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 25px;
+    width: 25px;
+    padding-top: 0px;
+}
+
+.usmito-buttons input{
+    visibility: hidden;
+    width: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.usmito-buttons label .usmito-buttons-likeActive{
+    fill: rgb(224, 36, 94);
+}
+
+.usmito-buttons-comment:hover{
+    fill: rgb(29, 161, 242);
+}
+
+.usmito-buttons-like:hover{
+    fill: rgb(224, 36, 94);
+}
+
+.usmito-buttons-reusmear:hover{
+    fill: rgb(23, 191, 99);
+}
+
+.usmito-buttons-countDiv{
+    display: inline-flex;
+}
+
+.usmito-buttons-likeCountDiv{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.usmito-buttons-likeCount{
+    /*color: rgb(224, 36, 94);*/
+    color: gray;
+}
+
+
+
+.userFeed{
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+
+.userFeed form{
+}
+
+.userFeed-username{
+    width: 90%;
+    align-self: center;
+    display: flex;
+}
+
+.userFeed-username-name{
+    width: auto;
+    align-self: center;
+}
+
+.userFeed-username-at{
+    width: auto;
+    align-self: center;
+    margin-left: 10px;
+}
+
+.userFeed-buttons{
+    float:right;
+    align-self: center;
+    width: 10%;
+}
+
+.userFeed-buttons label{
+    
+}
+
+.userFeed-buttons-followedUid{
+    visibility: hidden;
+    width: 0px !important;
+    height: 0px !important;
+    position: absolute;
+}
+
+.userFeed-buttons-follow{
+    border-radius: 20px;
+    width: -webkit-fill-available;
+    height: 30px;
+    color: var(--primary);
+    border-color: var(--primary);
+    background: white;
+    border-style: solid;
+}
+
+.userFeed-buttons-follow:hover{
+    background: rgba(0, 155, 233, 0.24);
+}
+
+.userFeed-buttons-unfollow{
+    border-radius: 20px;
+    width: -webkit-fill-available;
+    height: 30px;
+    color: white;
+    border-color: rgba(0, 0, 0,0);
+    background: var(--primary);
+}
+
+.userFeed-buttons-unfollow:hover{
+    background: rgb(202, 32, 85);
+}
+
+/* Trends */
+
+.trendsWrapper{
+    padding: 10%;
+}
+
+.trends-top10{
+    border: var(--primary);
+    border-style: solid;
+    border-radius: 50px;
+    padding-bottom: 40px;
+}
+
+.trends-top10Title{
+    margin: 20px;
+    text-align: center;
+}
+
+.trends-top10-elem1{
+    padding: 10px;
+}
+
+.trends-top10-elem2{
+    padding: 10px;
+}
+
+.trends-top10-elem3{
+    padding: 10px;
+}
+
+.trends-top10-elem{
+    padding: 10px;
+}
+
+.trends-top10-elem-header{
+    
+}
+
+.trends-top10-elem-header-top{
+    
+}
+
+.trends-top10-elem-header-tag{
+    
+}
+
+.trends-top10-elem-count{
+    
+}
+
+.searchTitle{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tag{
+
+}
+
+.tag-div{
+
+}
+
+.tag-div-name{
+
+}
+
+.tag-div-count{
+
+}
